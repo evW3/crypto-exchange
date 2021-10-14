@@ -1,5 +1,5 @@
-import { TRADERS_DEFAULT_NAMES, TRADERS_RARE_NAMES } from "./constants.utils";
 import { v4 as uuid } from 'uuid';
+import { TRADERS_DEFAULT_NAMES, TRADERS_RARE_NAMES } from "src/utils/constants.utils";
 
 export const createDefaultLogin = () => {
     const isRareName = !!(_getRandomInt(101) === 100);
@@ -17,6 +17,6 @@ export const createDefaultLogin = () => {
 
 };
 
-function _getRandomInt(maxNum) {
+function _getRandomInt(maxNum: number) {
     return Math.floor(Math.random() * maxNum);
-} 
+};

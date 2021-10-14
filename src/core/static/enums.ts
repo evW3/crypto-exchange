@@ -1,0 +1,13 @@
+export enum userAccountStatusses {
+    CREATE_ACCOUNT = 'CREATE_ACCOUNT',
+    SET_PERSONAL_INFORMATION = 'SET_PERSONAL_INFORMATION',
+    CONFIRM_EMAIL = 'CONFIRM_EMAIL',
+    PENDING_FOR_ADMIN_APPROVE = 'PENDING_FOR_ADMIN_APPROVE',
+    APPROVED = 'APPROVED'
+}
+
+export enum verificationCodesStatusses {
+    ACTIVE = 'ACTIVE',
+    CLOSED = 'CLOSED'
+}
+
